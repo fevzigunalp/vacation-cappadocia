@@ -31,9 +31,15 @@ export default function ContactForm() {
 
   return (
     <div className="bg-white rounded-xl shadow-md p-8">
-      <h2 className="text-2xl text-accent mb-6">
-        Send Us a Message
+      <h2 className="text-2xl text-accent mb-2">
+        Need to contact us?{" "}
+        <span className="text-primary">Use one of the options below.</span>
       </h2>
+      <p className="text-gray-500 mb-2">Our team are always happy to help.</p>
+      <h3 className="text-lg font-semibold text-accent mb-1">Email us</h3>
+      <p className="text-gray-500 text-sm mb-6">
+        Drop us an email and we&apos;ll get back to you within 12hrs...
+      </p>
 
       {submitted && (
         <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg text-green-700">
@@ -91,7 +97,7 @@ export default function ContactForm() {
         <div>
           <textarea
             {...register("message", { required: "Message is required" })}
-            placeholder="Your Message"
+            placeholder="What's your Message?"
             rows={5}
             className="w-full px-4 py-3 border border-border rounded-[3px] focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors resize-none"
           />

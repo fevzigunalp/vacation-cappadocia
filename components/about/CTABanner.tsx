@@ -6,7 +6,7 @@ export default function CTABanner() {
       className="relative w-full py-24 bg-cover bg-center bg-fixed"
       style={{
         backgroundImage:
-          "url('https://vacationcappadocia.com/wp-content/uploads/2022/06/balloons-goreme-820x520.jpg')",
+          "url('/images/contact/banner.jpg')",
       }}
     >
       <div className="absolute inset-0 bg-secondary/70" />

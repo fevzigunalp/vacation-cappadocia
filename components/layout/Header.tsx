@@ -41,7 +41,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="shrink-0">
             <Image
-              src="https://vacationcappadocia.com/wp-content/uploads/2022/07/vacation-cappadocia-logo.svg"
+              src="/images/logo.svg"
               alt="Vacation Cappadocia"
               width={180}
               height={50}
@@ -124,7 +124,7 @@ export default function Header() {
           <aside className="absolute top-0 left-0 w-72 h-full bg-[#222] overflow-y-auto">
             <div className="flex items-center justify-between p-4 border-b border-white/10">
               <Image
-                src="https://vacationcappadocia.com/wp-content/uploads/2022/07/vacation-cappadocia-logo.svg"
+                src="/images/logo.svg"
                 alt="Vacation Cappadocia"
                 width={140}
                 height={40}

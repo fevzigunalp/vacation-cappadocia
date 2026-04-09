@@ -7,6 +7,9 @@ export default function ActivitiesGrid() {
   return (
     <section className="py-20">
       <div className="mx-auto max-w-7xl px-4">
+        <p className="mb-2 text-center text-sm font-semibold tracking-widest text-primary">
+          browse by Activities
+        </p>
         <h2 className="mb-12 text-center text-3xl text-accent md:text-4xl">
           Find Your Own Adventure and Experience
         </h2>

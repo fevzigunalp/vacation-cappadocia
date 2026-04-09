@@ -12,8 +12,11 @@ export default function Testimonials() {
   return (
     <section className="bg-light-bg py-20">
       <div className="mx-auto max-w-4xl px-4">
+        <p className="mb-2 text-center text-sm font-semibold tracking-widest text-primary">
+          Real travelers reviews
+        </p>
         <h2 className="mb-12 text-center text-3xl text-accent md:text-4xl">
-          What Our Guests Say
+          What Our Travelers Say About the Trip
         </h2>
         <Swiper
           modules={[Pagination, Autoplay]}

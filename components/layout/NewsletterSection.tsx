@@ -51,7 +51,7 @@ export default function NewsletterSection() {
                 24/7 Customer Support
               </h3>
               <p className="text-body-text text-sm mb-4">
-                Need help? We&apos;re here for you around the clock.
+                Contact us now to have all of your tour-related question answered.
               </p>
               <div className="flex items-center gap-4">
                 <a

@@ -4,7 +4,6 @@ import { CheckCircle } from "lucide-react";
 
 const points = [
   "Professional Tour Guide",
-  "Exceptional flexibility",
   "Quality you can trust",
   "Award-winning support",
 ];
@@ -15,7 +14,7 @@ export default function WhyChooseUs() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 lg:grid-cols-2">
         <div className="relative h-[400px] overflow-hidden rounded-[3px] lg:h-[500px]">
           <Image
-            src="https://vacationcappadocia.com/wp-content/uploads/2023/03/32401099-820x760.jpg"
+            src="/images/general/why-choose-us.jpg"
             alt="Cappadocia Experience"
             fill
             className="object-cover"
@@ -24,11 +23,14 @@ export default function WhyChooseUs() {
         </div>
         <div>
           <p className="mb-2 text-sm font-semibold tracking-widest text-primary">
-            WHY CHOOSE US
+            why choose us
           </p>
           <h2 className="mb-6 text-3xl text-accent md:text-4xl">
             Our Experiences Meet High Quality Standards
           </h2>
+          <p className="mb-6 text-body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
           <ul className="mb-8 space-y-4">
             {points.map((p) => (
               <li key={p} className="flex items-center gap-3 text-body-text">

@@ -3,13 +3,28 @@ import Link from "next/link";
 import { blogPosts } from "@/data/blog-posts";
 import { Calendar } from "lucide-react";
 
+const categoryPills = ["Culture", "Nature", "The Tourism sector", "Travel"];
+
 export default function BlogPosts() {
   return (
     <section className="py-20">
       <div className="mx-auto max-w-7xl px-4">
-        <h2 className="mb-12 text-center text-3xl text-accent md:text-4xl">
-          Latest Blog Posts
+        <p className="mb-2 text-center text-sm font-semibold tracking-widest text-primary">
+          Travel insights &amp; ideas
+        </p>
+        <h2 className="mb-6 text-center text-3xl text-accent md:text-4xl">
+          Latest Travel Guides
         </h2>
+        <div className="mb-12 flex flex-wrap justify-center gap-3">
+          {categoryPills.map((cat) => (
+            <span
+              key={cat}
+              className="rounded-full bg-primary/10 px-4 py-1 text-sm font-medium text-primary"
+            >
+              {cat}
+            </span>
+          ))}
+        </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {blogPosts.map((post) => (
             <Link
@@ -31,9 +46,10 @@ export default function BlogPosts() {
                   <Calendar size={14} />
                   <span>{post.date}</span>
                 </div>
-                <h3 className="text-lg font-semibold text-accent transition duration-300 group-hover:text-primary">
+                <h3 className="mb-2 text-lg font-semibold text-accent transition duration-300 group-hover:text-primary">
                   {post.title}
                 </h3>
+                <span className="text-sm font-medium text-primary">Read more</span>
               </div>
             </Link>
           ))}

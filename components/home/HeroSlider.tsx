@@ -10,24 +10,21 @@ import "swiper/css/pagination";
 
 const slides = [
   {
-    image:
-      "https://vacationcappadocia.com/wp-content/uploads/2022/06/balloons-goreme-820x520.jpg",
+    image: "/images/hero/slider1.jpg",
     heading: "Welcome to Cappadocia",
     subtitle: "Discover the magic of fairy chimneys",
     cta: "Explore Tours",
     link: "/tours",
   },
   {
-    image:
-      "https://vacationcappadocia.com/wp-content/uploads/2022/06/cappadocia-winter-820x520.jpg",
+    image: "/images/hero/slider2.jpg",
     heading: "Hot Air Balloon Rides",
     subtitle: "Experience the sunrise from above",
     cta: "Book Now",
     link: "/activities/classic-balloon-tour",
   },
   {
-    image:
-      "https://vacationcappadocia.com/wp-content/uploads/2022/06/fascinating-cappadocia-820x520.jpg",
+    image: "/images/hero/slider3.jpg",
     heading: "Unforgettable Adventures",
     subtitle: "Create memories that last forever",
     cta: "View Activities",

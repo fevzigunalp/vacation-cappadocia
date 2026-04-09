@@ -7,13 +7,16 @@ export default function Destinations() {
     <section className="py-20">
       <div className="mx-auto max-w-7xl px-4">
         <p className="mb-2 text-center text-sm font-semibold tracking-widest text-primary">
-          DISCOVER MAGIC OF CAPPADOCIA!
+          Top Attractions
+        </p>
+        <p className="mb-2 text-center text-sm font-semibold tracking-widest text-primary">
+          Destinations
         </p>
         <h2 className="mb-12 text-center text-3xl text-accent md:text-4xl">
-          Top Attractions Destinations
+          d&#x131;scover mag&#x131;c of cappadocia !
         </h2>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {destinations.map((d) => (
+          {destinations.slice(0, 5).map((d) => (
             <Link
               key={d.slug}
               href={`/destinations/${d.slug}`}
@@ -36,7 +39,7 @@ export default function Destinations() {
         </div>
         <div className="mt-10 text-center">
           <Link
-            href="/destinations"
+            href="/destination"
             className="inline-block rounded-[3px] bg-primary px-[27px] py-[11px] font-semibold text-white transition duration-300 hover:bg-primary-dark"
           >
             Explore to More Destinations

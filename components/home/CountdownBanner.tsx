@@ -31,28 +31,31 @@ export default function CountdownBanner() {
   }, []);
 
   const blocks = [
-    { label: "Days", value: time.days },
-    { label: "Hours", value: time.hours },
-    { label: "Minutes", value: time.minutes },
-    { label: "Seconds", value: time.seconds },
+    { label: "days", value: time.days },
+    { label: "hrs", value: time.hours },
+    { label: "mins", value: time.minutes },
+    { label: "secs", value: time.seconds },
   ];
 
   return (
     <section
       className="relative bg-cover bg-center py-20"
       style={{
-        backgroundImage:
-          "url(https://vacationcappadocia.com/wp-content/uploads/2022/06/balloons-goreme-820x520.jpg)",
+        backgroundImage: "url(/images/general/countdown.jpg)",
       }}
     >
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-10 mx-auto max-w-4xl px-4 text-center text-white">
         <p className="mb-2 text-sm font-semibold tracking-widest text-primary">
-          LIMITED TIME OFFER
+          discover
         </p>
         <h2 className="mb-4 text-3xl md:text-5xl">
-          New Experiences in Cappadocia — 50% OFF
+          New Experiences in Cappadocia
         </h2>
+        <div className="mb-4 inline-block rounded-[3px] bg-primary px-4 py-2 text-lg font-bold">
+          50 OFF
+        </div>
+        <p className="mb-6 text-lg">It&apos;s limited seating! Hurry up</p>
         <div className="mb-8 flex justify-center gap-4">
           {blocks.map((b) => (
             <div key={b.label} className="flex flex-col items-center">

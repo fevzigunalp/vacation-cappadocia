@@ -99,7 +99,7 @@ export default function Footer() {
             {/* Logo */}
             <Link href="/" className="shrink-0">
               <Image
-                src="https://vacationcappadocia.com/wp-content/uploads/2022/07/vacation-cappadocia-logo.svg"
+                src="/images/logo.svg"
                 alt="Vacation Cappadocia"
                 width={140}
                 height={40}
@@ -110,7 +110,7 @@ export default function Footer() {
             <div className="flex flex-col sm:flex-row items-center gap-4 text-body-text text-sm">
               <div className="flex items-center gap-2">
                 <MapPin size={16} className="text-primary shrink-0" />
-                <span>Cumhuriyet Mahallesi Dumlup&#305;nar Caddesi Eski Sanayi Sitesi No:71/27 &Uuml;rg&uuml;p / Nev&#351;ehir</span>
+                <span>Cumhuriyet Mahallesi Dumlupınar Caddesi Eski Sanayi Sitesi No:71/27 Ürgüp / Nevşehir</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={16} className="text-primary shrink-0" />
@@ -159,7 +159,6 @@ export default function Footer() {
               </a>
             </div>
             <p className="text-text-lighter text-xs">
-              Designed by{" "}
               <a
                 href="https://comanalab.com"
                 target="_blank"
@@ -167,7 +166,8 @@ export default function Footer() {
                 className="text-primary hover:underline"
               >
                 Comana Lab
-              </a>
+              </a>{" "}
+              // Creative Digital Agency
             </p>
           </div>
         </div>

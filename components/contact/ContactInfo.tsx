@@ -5,24 +5,24 @@ const infoCards = [
     icon: Phone,
     title: "Trip Queries",
     lines: [
-      "Phone: +(90) 384 341 8 341",
-      "WhatsApp: +(90) 537 594 92 21",
+      "Contact Number: +(90) 384 341 8 341",
+      "Contact Via Whatsapp: +(90) 537 594 92 21",
+      "Contactable Hours: Mon-Sun: 24 Hours",
     ],
   },
   {
-    icon: Clock,
-    title: "Working Hours",
+    icon: Mail,
+    title: "Require information about a .. ?",
     lines: [
-      "Mon - Sun: 24 Hours",
-      "Email: info@vacationcappadocia.com",
+      "info@vacationcappadocia.com",
     ],
   },
   {
     icon: MapPin,
     title: "Location",
     lines: [
-      "Kayseri Erkilet Airport: 80km / 76 min",
-      "Nevsehir Cappadocia Airport: 40km / 40 min",
+      "Kayseri \u2013 Erkilet Airport 80km/76 Minutes",
+      "Nevsehir \u2013 Cappadocia Airport 40km/40 Minutes",
     ],
   },
 ];

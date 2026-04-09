@@ -8,7 +8,7 @@ const features = [
   },
   {
     icon: RefreshCw,
-    title: "Ultimate Flexibility",
+    title: "Memorable Experiences",
     description: "You're in control, with free cancellation and payment options.",
   },
   {
@@ -28,8 +28,8 @@ export default function FeatureIcons() {
     <section className="bg-light-bg py-20">
       <div className="mx-auto max-w-7xl px-4">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          {features.map((f) => (
-            <div key={f.title} className="text-center">
+          {features.map((f, i) => (
+            <div key={i} className="text-center">
               <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
                 <f.icon className="h-7 w-7 text-primary" />
               </div>

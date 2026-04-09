@@ -17,19 +17,16 @@ export default function AboutIntro() {
             A Better Way of Traveling and Touring the Cappadocia
           </h2>
           <p className="text-gray-600 mb-4 leading-relaxed">
-            Vacation Cappadocia is a premier travel agency based in the heart of
-            Cappadocia, Turkey. With over a decade of experience in the tourism
-            industry, we specialize in crafting unforgettable experiences across
-            this magical landscape of fairy chimneys, ancient cave churches, and
-            breathtaking valleys.
+            Vacation Cappadocia is a luxury travel booking portal where you
+            effortlessly can book day tours, fixed group departures, holidays
+            and vacation packages in 12+ unique destinasyon in Cappadocia.
           </p>
           <p className="text-gray-600 mb-8 leading-relaxed">
-            From hot air balloon rides at sunrise to guided treks through the
-            stunning Ihlara Valley, our team of local experts designs every tour
-            with passion and attention to detail. We believe that travel should
-            be personal, seamless, and filled with moments that last a lifetime.
-            Whether you are planning a honeymoon, a family adventure, or a solo
-            escape, we tailor every itinerary to your unique interests.
+            Today, booking the right tour or holiday package has become a time
+            consuming and painful process. Which tour operator is qualified?
+            What&apos;s the right tour price? When you pay an upfront deposit to
+            an unknown tour operator, is your money safe? Are the reviews seen
+            on a local operators website genuine?
           </p>
           <Link
             href="/contact"
@@ -42,7 +39,7 @@ export default function AboutIntro() {
         {/* Right - Decorative Image */}
         <div className="relative flex justify-center">
           <Image
-            src="https://vacationcappadocia.com/wp-content/uploads/2022/07/ab_deco2.png"
+            src="/images/about/about-deco.png"
             alt="About Vacation Cappadocia"
             width={500}
             height={600}
