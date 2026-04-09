@@ -17,6 +17,15 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
+export function generateStaticParams() {
+  return [
+    { slug: "adventure" },
+    { slug: "cultural" },
+    { slug: "balloon-ride" },
+    { slug: "camel-safari" },
+  ];
+}
+
 export default async function BookingTypePage({ params }: Props) {
   const { slug } = await params;
   const label = slug
