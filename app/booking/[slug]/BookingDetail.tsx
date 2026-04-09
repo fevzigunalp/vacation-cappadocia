@@ -7,6 +7,7 @@ import { Clock, Star, MapPin, Send } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { tours } from "@/data/tours";
+import { activities } from "@/data/activities";
 import TourCard from "@/components/shared/TourCard";
 
 interface InquiryData {
@@ -19,7 +20,8 @@ interface InquiryData {
 
 export default function BookingDetail() {
   const { slug } = useParams<{ slug: string }>();
-  const tour = tours.find((t) => t.slug === slug);
+  const allItems = [...tours, ...activities.map((a) => ({ ...a, location: "Cappadocia" as string }))];
+  const tour = allItems.find((t) => t.slug === slug);
   const relatedTours = tours.filter((t) => t.slug !== slug).slice(0, 3);
 
   const [submitted, setSubmitted] = useState(false);
