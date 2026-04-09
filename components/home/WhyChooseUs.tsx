@@ -12,7 +12,7 @@ export default function WhyChooseUs() {
   return (
     <section className="bg-light-bg py-20">
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 lg:grid-cols-2">
-        <div className="relative h-[400px] overflow-hidden rounded-[3px] lg:h-[500px]">
+        <div className="relative h-[250px] md:h-[400px] overflow-hidden rounded-[3px] lg:h-[500px]">
           <Image
             src="/images/general/why-choose-us.jpg"
             alt="Cappadocia Experience"

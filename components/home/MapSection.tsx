@@ -11,6 +11,7 @@ export default function MapSection() {
             width={1200}
             height={600}
             className="mx-auto w-full max-w-4xl"
+            sizes="(max-width: 1024px) 100vw, 896px"
           />
         </div>
       </div>

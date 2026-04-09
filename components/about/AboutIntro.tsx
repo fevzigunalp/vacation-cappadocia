@@ -10,7 +10,7 @@ export default function AboutIntro() {
           <span className="text-primary text-sm font-semibold uppercase tracking-widest">
             Custom Travel Solutions
           </span>
-          <p className="text-5xl md:text-6xl font-light text-gray-300 mt-2 mb-2 italic">
+          <p className="text-3xl sm:text-5xl md:text-6xl font-light text-gray-300 mt-2 mb-2 italic">
             time to explore
           </p>
           <h2 className="text-3xl md:text-4xl text-accent mb-6 leading-tight">

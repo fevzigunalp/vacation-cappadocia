@@ -121,7 +121,7 @@ export default function Header() {
             className="absolute inset-0 bg-black/50"
             onClick={() => setMobileOpen(false)}
           />
-          <aside className="absolute top-0 left-0 w-72 h-full bg-[#222] overflow-y-auto">
+          <aside className="absolute top-0 left-0 w-[80vw] max-w-72 h-full bg-[#222] overflow-y-auto">
             <div className="flex items-center justify-between p-4 border-b border-white/10">
               <Image
                 src="/images/logo.svg"

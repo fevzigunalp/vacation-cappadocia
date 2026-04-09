@@ -41,7 +41,7 @@ export default function HeroSlider() {
         pagination={{ clickable: true }}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop
-        className="h-screen min-h-[600px]"
+        className="h-screen min-h-[500px] sm:min-h-[600px]"
       >
         {slides.map((slide, i) => (
           <SwiperSlide key={i}>

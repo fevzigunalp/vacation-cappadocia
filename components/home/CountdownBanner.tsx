@@ -56,7 +56,7 @@ export default function CountdownBanner() {
           50 OFF
         </div>
         <p className="mb-6 text-lg">It&apos;s limited seating! Hurry up</p>
-        <div className="mb-8 flex justify-center gap-4">
+        <div className="mb-8 flex justify-center gap-2 sm:gap-3 md:gap-4">
           {blocks.map((b) => (
             <div key={b.label} className="flex flex-col items-center">
               <span className="flex h-16 w-16 items-center justify-center rounded-lg bg-white/20 text-2xl font-bold backdrop-blur md:h-20 md:w-20 md:text-3xl">

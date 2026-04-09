@@ -9,7 +9,7 @@ interface PageBannerProps {
 export default function PageBanner({ title, breadcrumbs }: PageBannerProps) {
   return (
     <section
-      className="relative w-full h-[300px] flex items-center justify-center bg-cover bg-center"
+      className="relative w-full h-[200px] md:h-[300px] flex items-center justify-center bg-cover bg-center"
       style={{
         backgroundImage:
           "url('/images/contact/banner.jpg')",

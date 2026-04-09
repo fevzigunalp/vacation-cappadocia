@@ -61,7 +61,7 @@ export default function TourCard({ tour }: TourCardProps) {
               <span>{location}</span>
             </div>
           )}
-          <h3 className="mb-3 text-[24px] font-semibold text-accent transition-colors group-hover:text-primary line-clamp-2">
+          <h3 className="mb-3 text-lg sm:text-xl md:text-[24px] font-semibold text-accent transition-colors group-hover:text-primary line-clamp-2">
             {title}
           </h3>
           <div className="mb-3 flex items-center gap-1">
