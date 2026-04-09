@@ -26,7 +26,7 @@ export default function Categories() {
           {categories.map((c) => (
             <Link
               key={c.slug}
-              href={`/categories/${c.slug}`}
+              href={`/booking-types/${c.slug}`}
               className="group relative block h-44 overflow-hidden rounded-[3px]"
             >
               <Image

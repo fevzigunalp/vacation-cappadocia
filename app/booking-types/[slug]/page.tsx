@@ -19,10 +19,14 @@ export async function generateMetadata({ params }: Props) {
 
 export function generateStaticParams() {
   return [
+    { slug: "travel-style" },
+    { slug: "activities-type" },
     { slug: "adventure" },
-    { slug: "cultural" },
+    { slug: "atv" },
     { slug: "balloon-ride" },
     { slug: "camel-safari" },
+    { slug: "cultural" },
+    { slug: "experiences" },
   ];
 }
 
