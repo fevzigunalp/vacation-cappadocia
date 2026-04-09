@@ -9,13 +9,11 @@ export interface Tour {
   popular: boolean;
 }
 
-const IMAGE_BASE = "https://vacationcappadocia.com/wp-content/uploads";
-
 export const tours: Tour[] = [
   {
     slug: "classic-cappadocia-tour",
     title: "Classic Cappadocia Tour",
-    image: `${IMAGE_BASE}/2022/06/balloons-goreme-820x520.jpg`,
+    image: "/images/tours/classic-cappadocia.jpg",
     duration: "2 hours",
     rating: 4,
     price: 137,
@@ -25,7 +23,7 @@ export const tours: Tour[] = [
   {
     slug: "cappadocia-winter-tour",
     title: "Cappadocia Winter Tour",
-    image: `${IMAGE_BASE}/2022/06/cappadocia-winter-820x520.jpg`,
+    image: "/images/tours/winter-tour.jpg",
     duration: "3 days",
     rating: 4,
     price: 122,
@@ -35,7 +33,7 @@ export const tours: Tour[] = [
   {
     slug: "best-honeymoon-tour",
     title: "Best Honeymoon Tour",
-    image: `${IMAGE_BASE}/2022/06/honeymoon-cappadocia-820x520.jpg`,
+    image: "/images/tours/honeymoon.jpg",
     duration: "3 days",
     rating: 4,
     price: 102,
@@ -45,8 +43,8 @@ export const tours: Tour[] = [
   {
     slug: "fascinating-cappadocia-tour",
     title: "Fascinating Cappadocia Tour",
-    image: `${IMAGE_BASE}/2022/06/fascinating-cappadocia-820x520.jpg`,
-    duration: "1 day",
+    image: "/images/tours/fascinating.jpg",
+    duration: "1 days",
     rating: 4,
     price: 110,
     location: "Cappadocia",
@@ -55,9 +53,9 @@ export const tours: Tour[] = [
   {
     slug: "popular-cappadocia",
     title: "Popular Cappadocia",
-    image: `${IMAGE_BASE}/2022/06/popular-cappadocia-820x520.jpg`,
+    image: "/images/tours/popular-cappadocia.jpg",
     duration: "2 days",
-    rating: 0,
+    rating: 4,
     price: 80,
     location: "Cappadocia",
     popular: false,
@@ -65,19 +63,19 @@ export const tours: Tour[] = [
   {
     slug: "spirit-of-cappadocia",
     title: "Spirit of Cappadocia",
-    image: `${IMAGE_BASE}/2022/06/spirit-cappadocia-820x520.jpg`,
+    image: "/images/tours/spirit.jpg",
     duration: "4 days",
-    rating: 0,
+    rating: 4,
     price: 50,
     location: "Cappadocia",
     popular: false,
   },
   {
-    slug: "cappadocia-trekking-route",
+    slug: "cappadocia-most-popular-trekking-route",
     title: "Cappadocia Most Popular Trekking Route",
-    image: `${IMAGE_BASE}/2022/06/trekking-cappadocia-820x520.jpg`,
-    duration: "1 day",
-    rating: 0,
+    image: "/images/tours/trekking.jpg",
+    duration: "1 days",
+    rating: 4,
     price: 80,
     location: "Cappadocia",
     popular: false,
